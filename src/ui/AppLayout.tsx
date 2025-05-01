@@ -11,7 +11,7 @@ function AppLayout() {
       </div>
       <div className={styles.container_right}>
         <img
-          src="../../public/img/form-img.png"
+          src="../../public/img/salad.png"
           alt="Image of a fresh salad dish with a fresher oringe juce next to half sliced orange."
           decoding="async"
         ></img>

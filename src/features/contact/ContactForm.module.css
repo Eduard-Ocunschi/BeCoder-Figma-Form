@@ -1,0 +1,23 @@
+.full_name_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 43rem;
+
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border: none;
+}
+
+@media (max-width: 520px) {
+  .full_name_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,28 @@
+.hero_title {
+  font-size: 5rem;
+}
+.hero_title span {
+  color: var(--color-strong-yellow);
+}
+.hero_text {
+  font-size: var(--font-size-3);
+  color: var(--color-grey-300);
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1060px) {
+  .hero_title {
+    text-align: center;
+  }
+  .hero_text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

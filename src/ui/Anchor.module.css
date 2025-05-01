@@ -1,0 +1,12 @@
+.anchor {
+  display: inline-block;
+  color: var(--color-grey-300);
+  font-size: 1.6rem;
+  text-decoration: underline;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.anchor:hover {
+  color: var(--color-grey-200);
+}

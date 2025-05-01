@@ -1,0 +1,16 @@
+.input_container {
+  font-size: var(--font-size-2);
+  color: var(--color-grey-300);
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.checkbox:checked {
+  accent-color: var(--color-strong-yellow);
+}
